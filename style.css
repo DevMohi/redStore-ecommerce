@@ -391,10 +391,31 @@ ul{
     .cart-info p{
         display: none;
     }
+
+    .row-3 h2{
+        font-size: 15px;
+        
+    }
+    .row-3 select{
+        margin-left: 10px;
+        font-size: 15px;
+        
+    }
+    .row-3{
+        justify-content: space-evenly;
+    }
+
 }
 
 /* all products page  */
 
+.row-3{
+    justify-content: space-between;
+    display: flex;
+    margin: 100px auto 50px;
+    align-items: center;
+    
+}
 .row-2{
     justify-content: space-between;
     margin: 100px auto 50px;
